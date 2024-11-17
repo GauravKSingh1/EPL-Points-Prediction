@@ -1,11 +1,11 @@
 # EPL-Points-Prediction
 A machine learning-based approach to predicting the potential points of English Premier League (EPL) teams for the current season 2024/25, leveraging data collected from the previous seasons.The prediction framework is built on multiple supervised learning models, including K Nearest Neighbors, Decision Tree Regressor, Random Forest, AdaBoost, Gradient Boosting Regressor, XGBRegressor, and CatBoostRegressor. The dataset incorporates comprehensive match statistics and team performance metrics such as goals scored, assists, possession statistics, key passes, shots on target, and more, collected through web scraping and data integration techniques. Feature engineering and data preprocessing steps have been employed to ensure data consistency and predictive power. The predictive models were trained and evaluated based on a range of performance metrics, including R-squared scores and accuracy percentages. Comparative analysis revealed the efficacy of ensemble models in enhancing prediction accuracy. The findings offer valuable insights for understanding team dynamics, performance forecasting, and strategic planning for the ongoing EPL season, highlighting the potential of data-driven methods in sports analytics.
 
-##KEY FEATURES: 
+## KEY FEATURES: 
 1.Multi-Model Evaluation: Trained and evaluated seven different regression models: K-Nearest Neighbors Decision Tree Regressor Random Forest Regressor AdaBoost Regressor Gradient Boosting Regressor XGBoost Regressor CatBoost Regressor 2.High Accuracy: Achieved a model accuracy of 96% using the XGBoost Regressor, based on the R² score metric. 3.Season Predictions: Predicts the total points for teams in the ongoing 2024 season by considering matches already played and forecasting remaining performance. 4.Data Sources: Utilizes comprehensive datasets covering multiple seasons, including detailed match statistics, player contributions, and team performances.
 
-##MODEL PERFORMANCE: 
+## MODEL PERFORMANCE: 
 The XGBoost Regressor outperformed other models, achieving a 96% accuracy (R² score), making it a robust choice for predicting football league outcomes. This model leverages a mix of ensemble learning and boosting techniques, allowing for high predictive power even with complex feature interactions.
 
-##FUTURE IMPROVEMENTS: 
+## FUTURE IMPROVEMENTS: 
 Integration of player-level statistics for more granular predictions. Implementation of deep learning models (e.g., LSTM, RNN) for time-series forecasting. Building a web dashboard to visualize predictions and season progress in real-time.
